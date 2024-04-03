@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Common */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.section-heading {
+  color: #292019;
+  font-family: 'Abhaya Libre ExtraBold';
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1.27;
+  letter-spacing: -3px;
+}
+
+.section-desc {
+  color: #72696a;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: -26px;
+  z-index: 1;
+  background: #fff;
+  padding-top: 49px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  display: inline-block;
+  padding: 4px 21px;
+  color: #000;
+  font-size: 1.7rem;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.header-action {
+  display: flex;
+}
+
+.header-action__basket {
+  display: block;
+  margin: 0 25px;
+}
+
+.header-action__img {
+  transition: 0.25s;
+}
+
+.header-action__img:hover {
+  scale: 1.1;
+}
