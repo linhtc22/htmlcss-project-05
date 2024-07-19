@@ -250,3 +250,58 @@ a {
     bottom: 0;
     right: -192px;
 }
+
+/* Client */
+.client {
+    margin-top: 100px;
+}
+
+.client__row {
+    display: flex;
+    column-gap: 105px;
+    justify-content: flex-end;
+}
+
+.client__heading {
+    position: relative;
+    color: #080415;
+    font-size: 4.2rem;
+    font-weight: 500;
+    line-height: 119.048%;
+    letter-spacing: -0.168rem;
+    width: 253px;
+}
+
+.client__heading::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: -99px;
+    width: 86px;
+    height: 2px;
+    background: #5d3bee;
+}
+
+.client__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 34px 36px;
+    width: 60%;
+}
+
+.client__link {
+    display: flex;
+    align-items: center;
+}
+
+.client__icon {
+    margin-right: 13px;
+}
+
+.client__text {
+    color: #080415;
+    font-size: 1.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
